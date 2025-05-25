@@ -1,0 +1,31 @@
+@font-face {
+  font-family: vazir;
+  src: url(../public/fonts/Vazir/Vazirmatn-Medium.eot);
+  src: url(../public/fonts/Vazir/Vazirmatn-Medium.ttf);
+  src: url(../public/fonts/Vazir/Vazirmatn-Medium.woff2);
+  src: url(../public/fonts/Vazir/Vazirmatn-Medium.woff);
+}
+html,
+body {
+  direction: rtl;
+  padding: 0;
+  margin: 0;
+  font-family:vazir;
+}
+button{
+  font-family: vazir;
+
+}
+::placeholder{
+    font-family: vazir;
+
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
