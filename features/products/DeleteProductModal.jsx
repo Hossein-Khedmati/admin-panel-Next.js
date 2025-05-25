@@ -2,7 +2,7 @@ import { useDeleteProduct } from "./useDeleteProduct";
 import { toast } from "react-toastify";
 
 import styles from "./DeleteProductModal.module.css";
-import deleteOption from "../../public/close.png"
+import deleteOption from "../../public/Close.png"
 import Image from "next/image";
 
 const DeleteProductModal = ({ product, onClose }) => {
